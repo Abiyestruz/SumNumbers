@@ -6,3 +6,4 @@ function sum(){
     paragraph.innerHTML= "Your result is: " + result;
     console.log(result);
 }
+//Hola github
