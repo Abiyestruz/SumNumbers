@@ -5,9 +5,11 @@ h1{
 }
 .p1{
     font-size: 30px;
+    padding-left: 5%;
 }
 body{
     background-color: grey;
+    font-family: 'Indie Flower', cursive;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -16,11 +18,12 @@ input::-webkit-inner-spin-button {
 }
 button{
     height: 80px;
-    width: 10%;
+    width: 70px;
     font-size: 20px;
+    font-family: 'Indie Flower', cursive;
 }
 .box{
-    padding-left: 5%;
+    width: 30%;
 }
 input{
     height: 20px;
@@ -29,4 +32,20 @@ input{
 .color{
     color: yellowgreen;
     font-size: 20px;
+}
+.container{
+    display: flex;
+    padding-left: 5vw;
+    width: 100vw;
+}
+.imgleucocito{
+    width: 70%;
+    height: 73%;
+}
+.boximg{
+    display: flex;
+    align-items: center;
+}
+.titulo{
+    font-family: 'Indie Flower', cursive;
 }
